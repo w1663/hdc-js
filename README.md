@@ -91,7 +91,7 @@ node hdc.mjs --host 192.0.2.10 --port 8710 "list targets"
 
 ## Protocol reference
 
-`docs/PROTOCOL.md` — every field with its upstream `file:line`: channel handshake, packet framing,
+[`docs/PROTOCOL.md`](docs/PROTOCOL.md) — every field with its upstream `file:line`: channel handshake, packet framing,
 protobuf schemas, command numbers, and the unimplemented `AUTH_TOKEN` flow marked as TODO.
 
 ## What is verified / what is not
@@ -106,6 +106,12 @@ protobuf schemas, command numbers, and the unimplemented `AUTH_TOKEN` flow marke
 
 We are explicit about this because "it runs" is not "it works".
 
+## Sponsor
+
+如果你觉得这个项目有趣，请作者喝杯咖啡 ☕ (Buy me a coffee)
+
+![微信赞赏码](sponsor.png)
+
 ## License
 
-Public domain / CC0. Do whatever you want with it. No warranty; it was written on a phone.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. No warranty; it was written on a phone.
