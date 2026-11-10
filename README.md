@@ -24,6 +24,13 @@ $ hdc-node "shell uname -a"
 Linux localhost 5.10.43 #1 SMP PREEMPT aarch64
 ```
 
+## The story behind this repo
+
+Everything below — installing a CLI that had no npm, carving a 6 MB binary out of a 2.38 GB SDK,
+hand-building an ELF shared object because there was no compiler, reading 108 packed bytes out of
+the upstream headers, and finally driving a browser through shell injection to publish it — is
+written up phase by phase in **[docs/ARTICLE.md](docs/ARTICLE.md)** (Chinese, ~11k chars, 10 sections).
+
 ## Features
 
 - **Zero native dependencies** — pure ESM, Node ≥ 18, no `npm install` required (stdlib only)
